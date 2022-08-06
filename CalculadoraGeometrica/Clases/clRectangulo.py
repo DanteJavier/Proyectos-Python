@@ -1,4 +1,4 @@
-import clFiguraGeometrica as fg
+from Clases import clFiguraGeometrica as fg
 
 class Rectangulo(fg.FigurasGeometricas):
     def __init__(self):
@@ -9,4 +9,5 @@ class Rectangulo(fg.FigurasGeometricas):
         return perimetro
     def CalcularArea(self):
         area = self.base * self.altura
-        return area 
+        return area
+        
